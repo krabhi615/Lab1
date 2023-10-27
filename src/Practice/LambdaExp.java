@@ -21,15 +21,15 @@ interface xyz{
 public class LambdaExp {
 
 	public static void main(String[] args) {
-		xyz y = ()->System.out.println("Hello Show");
+		xyz y = //()->System.out.println("Hello Show");
 				
-				/*
-				 * new xyz() { public void show() {
-				 *  System.out.println("Hello show"); 
-				 *  }
-				 * 
-				 * };
-				 */
+				
+				  new xyz() { public void show() {
+				   System.out.println("Hello show"); 
+				   }
+				  
+				  };
+				 
 		 
 		 y.show();
 

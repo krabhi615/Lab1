@@ -30,8 +30,9 @@ public class LambdaExp {
 				 * };
 				 */
 				 
-		 
+		
 		 y.show();
+		 System.out.print("Edited by Amit");
 
 	}
 
